@@ -6,4 +6,3 @@ driver = webdriver.Chrome(executable_path=r"C:\Users\think\Downloads\chromedrive
 
 driver.get('https://www.facebook.com/')
 print(driver.title)
-print("test")
