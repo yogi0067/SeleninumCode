@@ -27,6 +27,8 @@ class Flights:
         self.preferred_airline = Select(driver.find_element_by_xpath(r'//*[@id="flight-advanced-preferred-airline-hp-flight"]'))
         self.preferred_class = Select(driver.find_element_by_xpath('//*[@id="flight-advanced-preferred-class-hp-flight"]'))
     def clickFlighttab():
-        
+        self.flight_tab.click()
+    
+    
 
 
